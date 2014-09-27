@@ -1,0 +1,30 @@
+;
+;  Database file 250.168.192.in-addr.arpa.dns for 250.168.192.in-addr.arpa zone.
+;      Zone version:  59
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	59           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns01.svccorp.com.
+scihoudns01.svccorp.com. A	192.168.250.24
+@                       NS	scihoudns02.svccorp.com.
+scihoudns02.svccorp.com. A	192.168.250.25
+
+;
+;  Zone records
+;
+
+114                     PTR	scihoucws01.sci-us.com.
+                        PTR	scihoucws01.svccorp.com.
+116                     PTR	scihoucws02.sci-us.com.
+24                      PTR	scihoudns01.svccorp.com.
+25                      PTR	scihoudns02.svccorp.com.

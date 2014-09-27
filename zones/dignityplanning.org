@@ -1,0 +1,26 @@
+;
+;  Database file dignityplanning.org for dignityplanning.org zone.
+;      Zone version:  10
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	10           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns01.svccorp.com.
+
+;
+;  Zone records
+;
+
+@                       MX	10	mailbox3.sci-us.com.
+@                       MX	10	mailbox1.sci-us.com.
+@                       MX	10	mailbox2.sci-us.com.
+www                     CNAME	scihoucws01.sci-us.com.

@@ -1,0 +1,6 @@
+scihoucws01,www
+scihoucws02,www
+scihoucws01,www2
+scihoucws01,www3
+scihoucws02,www4
+scihoucws02,ftp

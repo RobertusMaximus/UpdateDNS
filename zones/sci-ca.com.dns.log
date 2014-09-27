@@ -1,0 +1,27 @@
+
+$SOURCE  ADMIN
+$VERSION 9
+$DELETE
+smtp                    A	67.99.40.50
+
+$SOURCE  ADMIN
+$VERSION 10
+$ADD
+smtp                    CNAME	mailbox1.sci-us.com.
+
+$SOURCE  ADMIN
+$VERSION 11
+$DELETE
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	10           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+$ADD
+                        IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	11           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL

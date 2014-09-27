@@ -1,0 +1,34 @@
+
+$SOURCE  ADMIN
+$VERSION 203
+$ADD
+55                      PTR	www.byrdfuneralhome.com.
+
+$SOURCE  ADMIN
+$VERSION 204
+$ADD
+55                      PTR	byrdfuneralhome.com.
+ction.com.
+
+
+$SOURCE  ADMIN
+$VERSION 190
+$ADD
+55                      PTR	www.royakersfuneralchapels.com.
+
+$SOURCE  ADMIN
+$VERSION 191
+$DELETE
+0                       PTR	www.royakersfuneralchapels.com.
+VERSION 175
+$ADD
+16                      PTR	smartandsafeseniors.org.
+
+$SOURCE  ADMIN
+$VERSION 176
+$ADD
+16                      PTR	www.smartandsafeseniors.org.
+refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL

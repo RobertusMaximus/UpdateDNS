@@ -1,0 +1,26 @@
+;
+;  Database file aftercareplanner.com.dns for aftercareplanner.com zone.
+;      Zone version:  5
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	5            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns01.svccorp.com.
+@                       NS	scihoudns02.svccorp.com.
+scihoudns02.svccorp.com. A	192.168.250.25
+
+;
+;  Zone records
+;
+
+@                       A	67.99.40.16
+www                     A	67.99.40.16

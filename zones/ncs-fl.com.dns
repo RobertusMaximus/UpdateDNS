@@ -1,0 +1,26 @@
+;
+;  Database file ncs-fl.com.dns for ncs-fl.com zone.
+;      Zone version:  6
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	6            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns02.svccorp.com.
+scihoudns02.svccorp.com. A	192.168.250.25
+@                       NS	scihoudns01.svccorp.com.
+
+;
+;  Zone records
+;
+
+@                       A	67.99.40.52
+www                     A	67.99.40.52

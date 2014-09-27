@@ -1,0 +1,36 @@
+;
+;  Database file sci-us.com.dns for sci-us.com zone.
+;      Zone version:  57
+;
+
+@                       IN  SOA ns1.svccorp.com.  hostmaster.svccorp.com. (
+                        	57           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.svccorp.com.
+ns2.svccorp.com.        A	67.99.40.25
+@                       NS	ns1.svccorp.com.
+ns1.svccorp.com.        A	67.99.40.24
+
+;
+;  Zone records
+;
+
+@                       A	67.99.40.56
+@                       MX	50	mailbox2.sci-us.com.
+@                       MX	10	mailbox3.sci-us.com.
+@                       MX	10	mailbox1.sci-us.com.
+mailbox1                A	67.99.40.50
+mailbox2                A	67.99.40.51
+mailbox3                A	67.99.40.60
+scihoualt01             A	67.99.40.251
+scihoucws01             A	192.168.250.114
+scihoucws02             A	192.168.250.116
+scihouepo01             A	67.99.40.152

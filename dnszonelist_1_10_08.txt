@@ -1,0 +1,6 @@
+Name
+Forward Lookup Zones
+Reverse Lookup Zones
+Event Viewer
+Root Hints
+Forwarders

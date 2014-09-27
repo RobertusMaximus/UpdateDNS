@@ -1,0 +1,24 @@
+;
+;  Database file testttt.com.dns for testttt.com zone.
+;      Zone version:  3
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	3            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns01.svccorp.com.
+@                       NS	scihoudns02.svccorp.com.
+scihoudns02.svccorp.com. A	192.168.250.25
+
+;
+;  Zone records
+;
+

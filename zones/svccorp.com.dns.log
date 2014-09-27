@@ -1,0 +1,22 @@
+
+$SOURCE  ADMIN
+$VERSION 111
+$DELETE
+@                       IN  SOA ns1.svccorp.com.  . (
+                        	110          ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+$ADD
+                        IN  SOA ns1.svccorp.com.  . (
+                        	111          ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+$SOURCE  ADMIN
+$VERSION 110
+$ADD
+ns2                     A	192.168.250.25

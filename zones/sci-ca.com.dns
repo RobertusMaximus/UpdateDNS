@@ -1,0 +1,27 @@
+;
+;  Database file sci-ca.com.dns for sci-ca.com zone.
+;      Zone version:  11
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	11           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns02.svccorp.com.
+scihoudns02.svccorp.com. A	192.168.250.25
+@                       NS	scihoudns01.svccorp.com.
+
+;
+;  Zone records
+;
+
+@                       MX	10	smtp.sci-ca.com.
+@                       MX	10	mailbox2.sci-us.com.
+smtp                    CNAME	mailbox1.sci-us.com.

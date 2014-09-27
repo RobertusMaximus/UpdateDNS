@@ -1,0 +1,28 @@
+;
+;  Database file sci-corp.com.dns for sci-corp.com zone.
+;      Zone version:  41
+;
+
+@                       IN  SOA ns1.svccorp.com.  hostmaster.svccorp.com. (
+                        	41           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns02.svccorp.com.
+scihoudns02.svccorp.com. A	192.168.250.25
+@                       NS	scihoudns01.svccorp.com.
+
+;
+;  Zone records
+;
+
+@                       A	67.99.40.56
+demo                    A	67.99.40.40
+investors               CNAME	phx.corporate-ir.net.
+www                     A	67.99.40.56

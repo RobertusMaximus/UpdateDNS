@@ -1,0 +1,25 @@
+;
+;  Database file BrownFH.com.dns for BrownFH.com zone.
+;      Zone version:  6
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	6            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns02.svccorp.com.
+@                       NS	scihoudns01.svccorp.com.
+
+;
+;  Zone records
+;
+
+@                       A	67.99.40.55
+www                     A	67.99.40.55

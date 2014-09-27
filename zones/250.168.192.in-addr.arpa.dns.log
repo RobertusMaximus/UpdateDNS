@@ -1,0 +1,109 @@
+
+$SOURCE  ADMIN
+$VERSION 52
+$DELETE
+24                      PTR	scihoudns01.svccorp.com.
+
+$SOURCE  ADMIN
+$VERSION 53
+$DELETE
+25                      PTR	scihoudns02.svccorp.com.
+N
+$VERSION 51
+$ADD
+25                      PTR	scihoudns02.svccorp.com.
+   ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+$ADD
+                        IN  SOA ns1.svccorp.com.  hostmaster.svccorp.com. (
+                        	35           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+$SOURCE  ADMIN
+$VERSION 36
+$DELETE
+@                       NS	scihoudns01.svccorp.com.
+$ADD
+                        NS	ns1.svccorp.com.
+
+$SOURCE  ADMIN
+$VERSION 37
+$ADD
+ns1.svccorp.com.        A	67.99.40.24
+
+$SOURCE  ADMIN
+$VERSION 38
+$DELETE
+@                       NS	scihoudns02.svccorp.com.
+$ADD
+                        NS	ns2.svccorp.com.
+
+$SOURCE  ADMIN
+$VERSION 39
+$DELETE
+scihoudns02.svccorp.com. A	192.168.250.25
+
+$SOURCE  ADMIN
+$VERSION 40
+$ADD
+ns2.svccorp.com.        A	67.99.40.25
+
+$SOURCE  ADMIN
+$VERSION 41
+$DELETE
+@                       NS	ns1.svccorp.com.
+$ADD
+                        NS	scihoudns01.svccorp.com.
+
+$SOURCE  ADMIN
+$VERSION 42
+$DELETE
+ns1.svccorp.com.        A	67.99.40.24
+
+$SOURCE  ADMIN
+$VERSION 43
+$ADD
+scihoudns01.svccorp.com. A	192.168.250.24
+
+$SOURCE  ADMIN
+$VERSION 44
+$DELETE
+@                       NS	ns2.svccorp.com.
+$ADD
+                        NS	scihoudns02.svccorp.com.
+
+$SOURCE  ADMIN
+$VERSION 45
+$DELETE
+ns2.svccorp.com.        A	67.99.40.25
+
+$SOURCE  ADMIN
+$VERSION 46
+$ADD
+scihoudns02.svccorp.com. A	192.168.250.25
+
+$SOURCE  ADMIN
+$VERSION 47
+$DELETE
+@                       IN  SOA ns1.svccorp.com.  hostmaster.svccorp.com. (
+                        	46           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+$ADD
+                        IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	47           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+$SOURCE  ADMIN
+$VERSION 48
+$ADD
+192.168.250.24          PTR	scihoudns01.

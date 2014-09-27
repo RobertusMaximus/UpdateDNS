@@ -1,0 +1,9 @@
+perl dns_build_master.pl DNS_MASTER_ZONE_FILE.txt 67.99.40.91 67.99.40.92 master
+
+perl dns_build_slave.pl DNS_MASTER_ZONE_FILE.txt 192.168.240.90 slave
+
+
+perl dns_build.pl DNS_MASTER_ZONE_FILE.txt 192.168.250.25 slave
+
+old:
+perl dns_build.pl dnszones1.15.08.txt 192.168.240.90 0.0.0.0 slave

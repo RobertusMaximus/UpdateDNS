@@ -1,0 +1,17 @@
+
+$SOURCE  ADMIN
+$VERSION 41
+$DELETE
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	40           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+$ADD
+                        IN  SOA ns1.svccorp.com.  hostmaster.svccorp.com. (
+                        	41           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL

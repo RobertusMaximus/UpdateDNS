@@ -1,0 +1,27 @@
+;
+;  Database file hardage-giddens.com.dns for hardage-giddens.com zone.
+;      Zone version:  15
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	15           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns02.svccorp.com.
+@                       NS	scihoudns01.svccorp.com.
+
+;
+;  Zone records
+;
+
+@                       A	67.99.40.55
+@                       MX	10	mailbox2.sci-us.com.
+@                       MX	10	mailbox1.sci-us.com.
+www                     A	67.99.40.55

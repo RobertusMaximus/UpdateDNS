@@ -1,0 +1,25 @@
+;
+;  Database file southlawn-tucson.com.dns for southlawn-tucson.com zone.
+;      Zone version:  106
+;
+
+@                       IN  SOA ns1.svccorp.com.  hostmaster.svccorp.com. (
+                        	107          ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.svccorp.com.
+@                       NS	ns2.svccorp.com.
+
+;
+;  Zone records
+;
+
+@                       A	67.99.40.55
+www                     A	67.99.40.55

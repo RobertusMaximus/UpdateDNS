@@ -1,0 +1,150 @@
+;
+;  Database file 40.99.67.in-addr.arpa.dns for 40.99.67.in-addr.arpa zone.
+;      Zone version:  236
+;
+
+@                       IN  SOA scihoudns01.svccorp.com.  hostmaster.svccorp.com. (
+                        	236          ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	scihoudns02.svccorp.com.
+scihoudns02.svccorp.com. A	192.168.250.25
+@                       NS	scihoudns01.svccorp.com.
+
+;
+;  Zone records
+;
+
+100                     PTR	ftp.svccorp.com.
+105                     PTR	www3.svccorp.com.
+106                     PTR	www4.svccorp.com.
+107                     PTR	www5.svccorp.com.
+133                     PTR	trustpafprod.svccorp.com.
+140                     PTR	epayweb.alderwoods.com.
+141                     PTR	metcep.alderwoods.com.
+144                     PTR	content.svccorp.com.
+146                     PTR	yahrzeit.svccorp.com.
+147                     PTR	ducourse.svccorp.com.
+148                     PTR	centra.svccorp.com.
+149                     PTR	security.svccorp.com.
+150                     PTR	ftptest.svccorp.com.
+152                     PTR	scihouepo01.sci-us.com.
+16                      PTR	smartandsafeseniors.net.
+                        PTR	www.funerariasdelangel.com.
+                        PTR	theportalofthefoldedwings.com.
+                        PTR	www.smartandsafeseniors.com.
+                        PTR	www.smartandsafeseniors.org.
+                        PTR	jardinesyfunerariasdelangel.com.
+                        PTR	www.smartandsafeseniors.net.
+                        PTR	www.shareyourwishes.org.
+                        PTR	www.jardinesyfunerariasdelangel.com.
+                        PTR	smartandsafe.com.
+                        PTR	geohlewis.com.
+                        PTR	www.theportalofthefoldedwings.com.
+                        PTR	shareyourwishes.org.
+                        PTR	smartandsafeseniors.com.
+                        PTR	www.smartandsafe.com.
+                        PTR	smartandsafeseniors.org.
+                        PTR	funerariasdelangel.com.
+                        PTR	www.escapeschool.com.
+                        PTR	www.aftercareplanner.com.
+                        PTR	escapeschool.com.
+                        PTR	aftercareplanner.com.
+240                     PTR	bobi.svccorp.com.
+251                     PTR	scihoualt01.sci-us.com.
+                        PTR	alt.svccorp.com.
+                        PTR	scihoualt01.svccorp.com.
+252                     PTR	vpn1.svccorp.com.
+32                      PTR	apps.svccorp.com.
+33                      PTR	reporting03.svccorp.com.
+34                      PTR	inventory.svccorp.com.
+36                      PTR	quickentry.svccorp.com.
+39                      PTR	demo.dignitymemorial.com.
+40                      PTR	hmiststweb02.svccorp.com.
+                        PTR	hmisval.svccorp.com.
+                        PTR	demo.sci-corp.com.
+41                      PTR	hmistraining.svccorp.com.
+42                      PTR	hmissandbox.svccorp.com.
+44                      PTR	infosystest.svccorp.com.
+45                      PTR	hmisi2pilot.svccorp.com.
+46                      PTR	hmisfrench.svccorp.com.
+47                      PTR	project.svccorp.com.
+                        PTR	sharepoint.svccorp.com.
+50                      PTR	smtp.svccorp.com.
+                        PTR	mailbox1.sci-us.com.
+51                      PTR	mailbox2.sci-us.com.
+52                      PTR	ncs-fl.com.
+                        PTR	www.ncs-fl.com.
+                        PTR	www.nationalcremationservice.com.
+                        PTR	www.nationalcremationservice.net.
+                        PTR	www.nationalcremationsociety.com.
+                        PTR	www.nationalcremationsociety.net.
+54                      PTR	portal.svccorp.com.
+55                      PTR	mullinsandthompson.com.
+                        PTR	www.royakersfuneralchapels.com.
+                        PTR	danzanskygoldberg.com.
+                        PTR	hillcrestmemorialparkaugusta.com.
+                        PTR	www.hillcrestmemorialparkaugusta.com.
+                        PTR	mullinsthompson.com.
+                        PTR	www.ellisfunerals.com.
+                        PTR	dignitymemorial.com.geohlewis.com.
+                        PTR	southlawn-tucson.com.
+                        PTR	www.sagelfuneraldirection.com.
+                        PTR	alderwoods.com.
+                        PTR	www.southlawn-tucson.com.
+                        PTR	liveoakmonrovia.com.
+                        PTR	www.kriegshausermortuary.com.
+                        PTR	www.alderwoods.com.
+                        PTR	montevistaparkcemetery.com.
+                        PTR	www.danzanskygoldberg.com.
+                        PTR	www.dignitymemorial.com.
+                        PTR	www.montevistaparkcemetery.com.
+                        PTR	www.mullinsthompson.com.
+                        PTR	kriegshausermortuary.com.
+                        PTR	www.eastlawnkingsport.com.
+                        PTR	www.clementswilcox.com.
+                        PTR	dignitymemorial.com.
+                        PTR	sagelfuneraldirection.com.
+                        PTR	www.collinsmckeestone.com.
+                        PTR	eastlawnkingsport.com.
+                        PTR	www.mullinsandthompson.com.
+                        PTR	royakersfuneralchapels.com.
+                        PTR	www.byrdfuneralhome.com.
+                        PTR	ellisfunerals.com.
+                        PTR	collinsmckeestone.com.
+                        PTR	www.liveoakmonrovia.com.
+                        PTR	byrdfuneralhome.com.
+                        PTR	dignitybenefits.com.
+                        PTR	www.dignitybenefits.com.
+56                      PTR	www.sci-corp.com.
+                        PTR	sci-corp.com.
+                        PTR	www.alderwoods.com.
+                        PTR	alderwoods.com.
+                        PTR	sci-us.com.
+58                      PTR	firstmemorial.ca.
+                        PTR	www.firstmemorial.ca.
+6                       PTR	scihouvpn01.svccorp.com.
+60                      PTR	scihouwap01.svccorp.com.
+                        PTR	mailbox3.sci-us.com.
+62                      PTR	search.svccorp.com.
+63                      PTR	scihoulms01.svccorp.com.
+64                      PTR	webdemo2.svccorp.com.
+66                      PTR	www.dmvietnamwall.com.
+67                      PTR	www.advantagefunerals.com.
+73                      PTR	hmisqeuprod.svccorp.com.
+75                      PTR	webmail.svccorp.com.
+76                      PTR	mtbi2.svccorp.com.
+                        PTR	uat2.svccorp.com.
+77                      PTR	database.svccorp.com.
+                        PTR	reporting01.svccorp.com.
+80                      PTR	www.svccorp.com.
+81                      PTR	heatss.svccorp.com.
+82                      PTR	tls.svccorp.com.
+99                      PTR	hmis.svccorp.com.

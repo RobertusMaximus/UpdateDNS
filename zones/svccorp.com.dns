@@ -1,0 +1,83 @@
+;
+;  Database file svccorp.com.dns for svccorp.com zone.
+;      Zone version:  115
+;
+
+@                       IN  SOA ns1.svccorp.com.  . (
+                        	115          ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.svccorp.com.
+@                       NS	scihoudns01.svccorp.com.
+@                       NS	ns1.svccorp.com.
+
+;
+;  Zone records
+;
+
+@                       A	67.99.40.80
+@                       MX	10	smtp.svccorp.com.
+alt                     A	67.99.40.251
+apps                    A	67.99.40.32
+bobi                    A	67.99.40.240
+centra                  A	67.99.40.148
+content                 A	67.99.40.144
+database                A	67.99.40.77
+ducourse                A	67.99.40.147
+ftp                     A	67.99.40.100
+ftptest                 A	67.99.40.150
+heatss                  A	67.99.40.81
+hmis                    A	67.99.40.99
+hmisfr                  A	67.99.40.46
+hmisfrench              A	67.99.40.46
+hmisi2pilot             A	67.99.40.45
+hmisi2sandbox           A	67.99.40.41
+hmismsttrng             A	67.99.40.41
+hmisomniforms           CNAME	hmissandbox.svccorp.com.
+hmisqeuprod             A	67.99.40.73
+hmissandbox             A	67.99.40.42
+hmistraining            A	67.99.40.41
+hmiststweb02            A	67.99.40.40
+hmisval                 A	67.99.40.40
+infosystest             A	67.99.40.44
+inventory               A	67.99.40.34
+mtbi2                   A	67.99.40.76
+ns1                     A	67.99.40.24
+ns2                     A	67.99.40.25
+portal                  A	67.99.40.54
+project                 A	67.99.40.47
+quickentry              A	67.99.40.36
+www.quickentry          A	67.99.40.36
+reporting01             A	67.99.40.77
+reporting03             A	67.99.40.33
+scihoualt01             A	67.99.40.251
+scihoucws01             A	192.168.250.114
+scihoudns01             A	192.168.250.24
+scihoudns02             A	192.168.250.25
+scihoulms01             A	67.99.40.63
+scihouvpn01             A	67.99.40.6
+scihouwap01             A	67.99.40.60
+search                  A	67.99.40.62
+security                A	67.99.40.149
+sharepoint              A	67.99.40.47
+smtp                    A	67.99.40.50
+tls                     A	67.99.40.82
+trustpafprod            A	67.99.40.133
+uat2                    A	67.99.40.76
+uati2                   A	67.99.40.76
+vpn                     A	67.99.40.11
+vpn1                    A	67.99.40.252
+webdemo2                A	67.99.40.64
+webmail                 A	67.99.40.75
+www                     A	67.99.40.80
+www3                    A	67.99.40.105
+www4                    A	67.99.40.106
+www5                    A	67.99.40.107
+yahrzeit                A	67.99.40.146
